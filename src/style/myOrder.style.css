@@ -1,0 +1,56 @@
+.status-card-container{
+    margin-bottom: 20px;
+    max-width: 750px;   
+}
+
+.status-card{
+    background-color: white;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.status-card:hover{
+    background-color: rgba(238, 30, 30, 0.148);
+}
+
+.order-img-and-col {
+    display: flex;
+    width: 85%
+}
+
+.order-status-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+}
+
+.order-img-col {
+    width: 67px;
+}
+
+.order-info-col {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .status-card{
+        display: block;
+    }
+
+    .order-img-and-col {
+        width: 100%
+    }
+
+    .order-status-col{
+        width: 100%;
+    }
+}
+
+.order-status{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+}

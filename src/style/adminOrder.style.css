@@ -1,0 +1,79 @@
+.modal-dialog{
+    max-width: 1000px;
+}
+
+.order-button-area{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.order-button-area button{
+    width: 96%;
+}
+
+.order-detail-dialog-close-btn{
+   background-color: rgb(147, 147, 147);
+   border: 1px solid  rgb(147, 147, 147); 
+}
+
+.order-detail-dialog-close-btn:hover{
+    background-color: rgb(127, 127, 127);
+    border: 1px solid  rgb(127, 127, 127);
+ }
+
+.order-detail-dialog-items {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.order-status-drop-down {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.order-status-drop-down-toggle {
+    width: 98%;
+}
+
+.order-status-drop-down-menu {
+    width: 100%;
+}
+
+.status-reason {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.status-reason div {
+    width: 5%;
+}
+
+.status-reason input {
+    width: 95%;
+}
+
+.admin-order-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-order-search-box{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin: 20px 0px; 
+}
+  
+.admin-order-search-box input {
+    width: 95%;
+    margin-left:5px;
+    padding: 5px;
+}
+
+.order-detail-dialog-order-item-id {
+    min-width: 100px;
+}

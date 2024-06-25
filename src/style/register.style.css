@@ -1,0 +1,8 @@
+.register-area{
+    max-width: 550px;
+}
+
+.terms-and-link-box {
+    display: flex;
+    justify-content: space-between;
+}

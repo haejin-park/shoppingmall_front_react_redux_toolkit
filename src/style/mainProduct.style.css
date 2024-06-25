@@ -1,0 +1,13 @@
+.paginate-row {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    display: flex;
+    align-content: center;
+
+}
+
+@media (min-width: 769px) and (max-width: 1008px) {
+    .paginate-row {
+        margin-top: 17px;
+    }
+}

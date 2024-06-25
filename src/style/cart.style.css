@@ -1,0 +1,138 @@
+.product-card-cart{
+    display: flex;
+    background-color: hsl(0, 2%, 94%);
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.qty-dropdown{
+    max-width:400px;
+}
+
+.trash-button{
+    border:none;
+    background-color: transparent;
+}
+
+.receipt-list{
+    list-style-type: none;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.receipt-list li{
+    padding-bottom: 10px;
+}
+
+.receipt-title, .receipt-list, .receipt-total-box, .payment-button {
+    margin-bottom: 20px;
+}
+
+.receipt-list-box, .receipt-total-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-button{
+   width: 100%;
+   padding: 16px;
+}
+
+.cart-img-col{
+    display: flex;
+    align-items: center;
+}
+
+.cart-product-info-col{
+    margin-left: 12px;
+    flex-grow: 1;
+}
+
+.receipt-container{
+    border: 1px solid gray;
+    padding: 32px 24px;
+}
+
+.item-checkbox {
+    margin-right: 10px;
+}
+
+.cart-btn-row {
+    margin: 20px 0px 30px;
+}
+
+.cart-cancel-btn, .cart-complete-btn {
+    width: 100%;
+}
+
+.cart-complete-btn:hover {
+    background-color: hsl(0, 0%, 27%);
+    color: rgb(255, 255, 255);
+    border: 1px solid hsl(0, 0%, 27%);
+}
+
+.deleted-product {
+    background-color: rgb(216, 216, 216);
+}
+
+.deleted-product-message-and-btn {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(216, 216, 216);
+    padding: 10px 15px;
+}
+
+.deleted-product-message {
+    font-size: 18px;
+}
+
+.delete-cart-item-btn {
+    min-width: 50px;
+    height: 30px;
+}
+
+.select-and-delete-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px 20px;
+}
+
+.customer-navbar-menu {
+    display: flex;
+}
+
+@media (min-width: 992px) {
+  .cart-row {
+    display: flex;
+  }
+
+  .product-list-col {
+    width: 60%;
+  } 
+
+  .order-receipt-col {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+    .receipt-container{
+        position: sticky;  
+        top:0;   
+    }
+}
+
+@media (max-width: 767px) {
+    .receipt-container{
+        margin-top: 12px;
+    }
+
+    .deleted-product-message {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
